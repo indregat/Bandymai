@@ -1,0 +1,55 @@
+header{
+    display: inline-block;
+    height: 50px;
+    background-color: blueviolet;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.leftside{
+    display: inline-block;
+    width:300px;
+    background-color: pink;
+    top: 50px;
+    left: 0;
+    bottom: 40px;
+    position: fixed;
+}
+
+#post{
+    display: inline-block;
+    min-width: 500px;
+    max-width: 1000px;
+    width: calc(100% - 600px);
+    height: 2000px;
+    margin:50px 0px 40px 300px; 
+    background-color: bisque;
+    
+}
+
+
+.rightside{
+    display: inline-block;
+    width: 300px;
+    background-color: aqua;
+    float: right;
+    top: 50px;
+    bottom: 40px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+
+footer{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    background-color: greenyellow;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
